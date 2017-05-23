@@ -2,7 +2,89 @@
 Colors: 
 #E54E79;
 #E56385;
-#00B2A9;
-#75726C;
-#EDE9E2
+#00B2A9; gris 
+#75726C; gris oscuro
+#EDE9E2;
 */
+body{
+	margin: 0;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background-color: #E54E79;
+	height: 100px
+}
+.logo img{
+	width: 80px;
+	position: relative;
+	left: 15%;
+	top: 20px;
+}
+ li{
+ 	list-style: none;
+ }
+ a{
+	text-decoration: none;
+	padding: 20px;
+	position: relative;
+	bottom: 60px;
+ }
+ nav{
+ 	padding-right: 150px;
+
+ }
+ nav a{
+ 	float: right;
+ 	color:#EDE9E2;
+ }
+
+ section img{
+ 	width: 100%;
+ 	position: relative;
+ 	bottom: 40px;
+ }
+ h1{
+ 	color: #00B2A9;
+ 	font-size: 30px;
+ }
+ .contenedor{
+ 	background-color: #EDE9E2;
+ 	width: 500px;
+ 	height: 300px;
+ 	float: right;
+ 	padding: 40px;
+ 	bottom: 600px;
+ 	position: relative;
+ }
+ h3{
+ 	font-family: 'Open Sans', sans-serif;
+ 	color: #75726C;
+ 	position: relative;
+ 	bottom: 10px;
+ }
+
+ input{
+ 	background-color: #EDE9E2;
+ 	padding: 10px;
+ 	border: 0px;
+ 	border-bottom: 1px solid;
+ 	width: 80%;
+ }
+
+  button{
+ 	background-color: #E54E79;
+ 	border-radius: 20px;
+ 	width: 250px;
+ 	height: 50px;
+ 	top: 20px;
+ 	position: relative;
+ 
+ }
+
+ h4, i{
+ 	font-family: 'Open Sans', sans-serif;
+ 	color: #FFF;
+ 	font-size: 16px;
+ 	position: relative;
+ }
