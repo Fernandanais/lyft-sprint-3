@@ -13,7 +13,9 @@ body{
 }
 header{
 	background-color: #E54E79;
-	height: 100px
+	height: 100px;
+	position: fixed;
+	
 }
 .logo img{
 	width: 80px;
@@ -51,7 +53,7 @@ header{
  .contenedor{
  	background-color: #EDE9E2;
  	width: 500px;
- 	height: 300px;
+ 	height: 350px;
  	float: right;
  	padding: 40px;
  	bottom: 600px;
@@ -75,10 +77,11 @@ header{
   button{
  	background-color: #E54E79;
  	border-radius: 20px;
- 	width: 250px;
+ 	width: 230px;
  	height: 50px;
  	top: 20px;
  	position: relative;
+ 	margin-bottom: 20px;
  
  }
 
@@ -86,5 +89,7 @@ header{
  	font-family: 'Open Sans', sans-serif;
  	color: #FFF;
  	font-size: 16px;
+ 	line-height: 15px;
+ 	padding-bottom: 40px;
  	position: relative;
  }
