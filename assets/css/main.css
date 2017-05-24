@@ -13,9 +13,8 @@ body{
 }
 header{
 	background-color: #E54E79;
-	height: 100px;
-	position: fixed;
-	
+	height: 100px;	
+
 }
 .logo img{
 	width: 80px;
@@ -58,6 +57,7 @@ header{
  	padding: 40px;
  	bottom: 600px;
  	position: relative;
+
  }
  h3{
  	font-family: 'Open Sans', sans-serif;
@@ -93,3 +93,58 @@ header{
  	padding-bottom: 40px;
  	position: relative;
  }
+
+ #play{
+ 	background-color: #00B2A9;
+ 	height: 600px;
+ 	width: 100%;
+ 	clear: both;
+ 	position: relative;
+ 	bottom: 500px;
+
+ }
+ #play h1{
+ 	color: #75726C; 
+ 	text-align: center;
+ 	padding: 20px;
+ 	background-color: #EDE9E2;
+ 	top: 80px;
+ 	position: relative;
+ 	font-family: 'Exo', sans-serif;
+ 	font-size: 50px;
+ }
+ .box-cars{
+ 	width: 80%;
+ 	height: 300px;
+ 	background-color: #EDE9E2;
+ 	position: relative;
+ 	top: 120px;
+ 	left: 10%;
+ 	text-align: center;
+ }
+
+ button.car{
+ 	padding: 0px 400px;
+ 	text-align: center;
+ 	height: 70px;
+ 	position: relative;
+ 	top: 30px;
+ 	width: 95%;
+ 	background-color: #00B2A9;
+ }
+
+.box-cars i{
+	color: #75726C; 
+	font-size: 30px;
+}
+#play input{
+	width: 20%;
+	padding: 80px 20px 0px 20px;
+}
+ .autox{
+	float: left;
+	padding-left: 100px;
+}
+
+
+
