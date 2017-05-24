@@ -25,11 +25,10 @@ header{
  li{
  	list-style: none;
  }
+
  a{
 	text-decoration: none;
-	padding: 20px;
-	position: relative;
-	bottom: 60px;
+
  }
  nav{
  	padding-right: 150px;
@@ -38,6 +37,9 @@ header{
  nav a{
  	float: right;
  	color:#EDE9E2;
+ 		padding: 20px;
+	position: relative;
+	bottom: 60px;
  }
 
  section img{
@@ -143,6 +145,33 @@ header{
 }
  .autox{
 	float: left;
+	padding-left: 100px;
+}
+footer{
+	background-color: #75726C; 
+	position: relative;
+	bottom: 500px;
+	height: 300px;
+	padding: 20px;
+	color: #EDE9E2;
+	
+}
+footer i{
+ 	color: #00B2A9;
+ 	padding: 20px;
+ 	position: relative;
+ 	top: 100px;
+ 	float: right;
+ 	clear: left;
+}
+
+footer p{
+	position: absolute;
+	top: 80%;
+	padding-left: 100px;
+}
+
+footer h2{
 	padding-left: 100px;
 }
 
