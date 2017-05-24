@@ -2,7 +2,7 @@
 Colors: 
 #E54E79;
 #E56385;
-#00B2A9; gris 
+#00B2A9;  
 #75726C; gris oscuro
 #EDE9E2;
 */
@@ -11,7 +11,6 @@ body{
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
 }
-
 
 .logo img{
 	width: 80px;
@@ -27,6 +26,7 @@ body{
 	z-index: 1;
 	width: 100%;
 }
+
 .logo a:hover{
 	color: #00B2A9;
 }
@@ -37,12 +37,12 @@ body{
 
  a{
 	text-decoration: none;
-
  }
+
  nav{
  	padding-right: 150px;
-
  }
+
  nav a{
  	float: right;
  	color:#EDE9E2;
@@ -57,10 +57,12 @@ body{
  	top: 100px;
  	height: 750px;
  }
+
  h1{
  	color: #00B2A9;
  	font-size: 30px;
  }
+
  .contenedor{
  	background-color: #EDE9E2;
  	width: 500px;
@@ -69,8 +71,8 @@ body{
  	padding: 40px;
  	bottom: 600px;
  	position: relative;
-
  }
+
  h3{
  	font-family: 'Open Sans', sans-serif;
  	color: #75726C;
@@ -116,8 +118,8 @@ body{
  	clear: both;
  	position: relative;
  	bottom: 500px;
-
  }
+
  #play h1{
  	color: #75726C; 
  	text-align: center;
@@ -128,6 +130,7 @@ body{
  	font-family: 'Exo', sans-serif;
  	font-size: 50px;
  }
+ 
  .box-cars{
  	width: 80%;
  	height: 300px;
