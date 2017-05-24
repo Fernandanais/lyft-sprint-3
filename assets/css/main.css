@@ -11,17 +11,26 @@ body{
 	width: 100%;
 	font-family: 'Roboto', sans-serif;
 }
-header{
-	background-color: #E54E79;
-	height: 100px;	
 
-}
+
 .logo img{
 	width: 80px;
 	position: relative;
 	left: 15%;
 	top: 20px;
 }
+
+.logo{
+	background-color: #E54E79;
+	height: 100px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+.logo a:hover{
+	color: #00B2A9;
+}
+
  li{
  	list-style: none;
  }
@@ -37,7 +46,7 @@ header{
  nav a{
  	float: right;
  	color:#EDE9E2;
- 		padding: 20px;
+ 	padding: 20px;
 	position: relative;
 	bottom: 60px;
  }
@@ -45,7 +54,8 @@ header{
  section img{
  	width: 100%;
  	position: relative;
- 	bottom: 40px;
+ 	top: 100px;
+ 	height: 750px;
  }
  h1{
  	color: #00B2A9;
@@ -84,8 +94,11 @@ header{
  	top: 20px;
  	position: relative;
  	margin-bottom: 20px;
- 
  }
+
+ button:hover{
+ 	background-color: #00B2A9;
+ }			
 
  h4, i{
  	font-family: 'Open Sans', sans-serif;
@@ -135,27 +148,34 @@ header{
  	background-color: #00B2A9;
  }
 
+ button.car:hover{
+ 	background-color: #E54E79;
+ }
+
 .box-cars i{
 	color: #75726C; 
 	font-size: 30px;
 }
+
 #play input{
 	width: 20%;
 	padding: 80px 20px 0px 20px;
 }
+
  .autox{
 	float: left;
 	padding-left: 100px;
 }
+
 footer{
 	background-color: #75726C; 
 	position: relative;
 	bottom: 500px;
 	height: 300px;
 	padding: 20px;
-	color: #EDE9E2;
-	
+	color: #EDE9E2;	
 }
+
 footer i{
  	color: #00B2A9;
  	padding: 20px;
@@ -167,13 +187,15 @@ footer i{
 
 footer p{
 	position: absolute;
-	top: 80%;
-	padding-left: 100px;
+	top: 50%;
+	padding: 100px;
 }
 
 footer h2{
 	padding-left: 100px;
 }
 
-
+i:hover{
+	color: #E54E79;	
+}
 
